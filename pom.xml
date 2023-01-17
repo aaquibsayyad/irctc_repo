@@ -8,25 +8,6 @@
   <name>flipkart-app Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
-<distributionManagement>  
-	<repository>
-		<id>nexus</id>
-		<name>Ashok IT Releases Nexus Repo</name>
-		<url>http://3.110.218.216/repository/ashokit-release-repo/</url>
-	</repository>
-	
-	<snapshotRepository>
-		<id>nexus</id>
-		<name>Ashok IT Snapshots Nexus Repo</name>
-		<url>http://3.110.218.216/repository/ashokit-snapshot/</url>
-	</snapshotRepository>	
-</distributionManagement>
-
-<dependency>
-  <groupId>in.sayyedit</groupId>
-  <artifactId>pwd-utils</artifactId>
-  <version>2.0</version>
-</dependency>
 
   <dependencies>
     <dependency>
